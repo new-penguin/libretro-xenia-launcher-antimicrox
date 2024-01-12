@@ -24,7 +24,7 @@ Download the Linux core from releases and skip to step 2 or...
   cp xenia_launcher_libretro.info /usr/share/libretro/info/xenia_launcher_libretro.info
   ```
 
-3. Make sure [Xenia](https://xenia.jp/) is installed either natively or have wine installed and the xenia directory copied to ./config/retroarch/system/xenia/xenia.exe as well as [antimicrox](https://github.com/AntiMicroX/antimicrox/).
+3. Make sure [Xenia](https://xenia.jp/) is installed either natively or have wine installed and the xenia directory copied to ./config/retroarch/system/xenia/xenia.exe as well as [antimicrox](https://github.com/AntiMicroX/antimicrox/). I recommend as of now that you use it via Wine because the native Linux version is very experimental and I've not had much luck with it.
 
 ## Usage
 
