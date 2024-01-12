@@ -139,7 +139,7 @@ void retro_run(void)
 bool retro_load_game(const struct retro_game_info *info)
 {
    // Launch without the gui if available (xenia).
-   char command[512] = "antimicrox & xenia -f -g";
+   char command[512] = "antimicrox & xenia  --fullscreen=true";
 
    // Check if there is content to load.
    if (info != NULL && info->path != NULL && info->path[0] != '\0') {
