@@ -154,7 +154,7 @@ bool retro_load_game(const struct retro_game_info *info)
 
    // Wine
    printf("libretro-xenia-launcher: xenia not found. Attempting Wine version...\n");
-   strcpy(command, "antimicrox --tray & wine ~/.config/retroarch/system/xenia/xenia.exe --fullscreen=true");
+   strcpy(command, "~/.config/retroarch/system/antimicrox.AppImage || flatpak run io.github.antimicrox.antimicrox || antimicrox --tray & wine ~/.config/retroarch/system/xenia/xenia.exe --fullscreen=true");
    if (info != NULL && info->path != NULL && info->path[0] != '\0') {
       // Execute with --batch.
       sprintf(command, "%s \"%s\"", command, info->path);
