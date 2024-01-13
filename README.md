@@ -29,15 +29,15 @@ Download the Linux core from releases and skip to step 2 or...
 
 ## Usage
 
-1. Scan your 360 games in RetroArch. I recommend manually scanning and importing because Retroarch doesn't have a 360 database to know what files are game executables
+1. Scan your 360 games in RetroArch. I recommend manually scanning and importing because Retroarch doesn't have a 360 database to know what files are game executables.
 
 2. Associate your games with the Microsoft 360 (Xenia Launcher) core
 
 3. Configure antimicrox to use your distro's 'close window' binding to your controller button preference. Or you can use my pre-configured controller mappings [here](https://ufile.io/9t4vnq6m) for the 360 and Xbox One controllers. Place in your user ~/ directory. In the provided examples I've mapped LS click + RS click to exit Xenia. Also you should make sure Xenia is configured correctly to run a game first as there's a bit of initial setup involved.
   
-3. And once done you should be able to launch and switch games directly from the RetroArch menu
+3. And once done you should be able to launch and switch games directly from the RetroArch menu.
 
-3. Alternatively, you can run games through the command line
+3. Alternatively, you can run games through the command line as this is the only way I've tested the launcher so far. Retroarch currently has an issue crashing when playlist entries have no file extensions.
   ``` bash
   retroarch -L xenia_launcher_libretro.so "game.xex"
   ```
